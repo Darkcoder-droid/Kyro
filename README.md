@@ -1,13 +1,13 @@
 <div align="center">
 
-```
-          ██╗  ██╗██╗   ██╗██████╗  ██████╗
-          ██║ ██╔╝╚██╗ ██╔╝██╔══██╗██╔═══██╗
-          █████╔╝  ╚████╔╝ ██████╔╝██║   ██║
-          ██╔═██╗   ╚██╔╝  ██╔══██╗██║   ██║
-          ██║  ██╗   ██║   ██║  ██║╚██████╔╝
-          ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝
-```
+<pre>
+██╗  ██╗██╗   ██╗██████╗  ██████╗ 
+██║ ██╔╝╚██╗ ██╔╝██╔══██╗██╔═══██╗
+█████╔╝  ╚████╔╝ ██████╔╝██║   ██║
+██╔═██╗   ╚██╔╝  ██╔══██╗██║   ██║
+██║  ██╗   ██║   ██║  ██║╚██████╔╝
+╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ 
+</pre>
 
 **A next-generation student productivity & collaboration platform**
 
@@ -37,31 +37,31 @@ Kyro is an all-in-one platform built for students who want to do more than just 
 <tr>
 <td width="50%">
 
-### 🗂 Task Management
+**🗂 Task Management**
 Organize your work with priorities, categories, deadlines, and daily/weekly views. Never miss what matters.
 
-### ⏱ Pomodoro Timer
+**⏱ Pomodoro Timer**
 Custom work/break intervals with session tracking. Stay focused, measure your progress.
 
-### 🎧 Focus Mode
+**🎧 Focus Mode**
 Full-screen minimal UI with ambient sound player — rain, café, white noise, forest. Built with Howler.js.
 
-### 🤖 AI Learning Assistant
+**🤖 AI Learning Assistant**
 Powered by Gemini API (free tier). Ask questions, get learning paths, explain anything — with full conversation history.
 
 </td>
 <td width="50%">
 
-### 🔍 Resource Finder
+**🔍 Resource Finder**
 AI-curated learning resources filtered by type and difficulty. Save anything worth revisiting.
 
-### 💬 Real-Time Messaging
+**💬 Real-Time Messaging**
 1:1 and group chat with typing indicators. Socket.io powered, Supabase persisted.
 
-### 🎙 Study Rooms
+**🎙 Study Rooms**
 Create or join live study sessions with WebRTC peer-to-peer voice calls and host-synced shared audio.
 
-### 📝 Publishing System
+**📝 Publishing System**
 Write and publish notes, articles, and resources with a full Tiptap rich text editor. Discover what others share.
 
 </td>
@@ -73,8 +73,6 @@ Write and publish notes, articles, and resources with a full Tiptap rich text ed
 ## ◈ Demo
 
 > Coming soon — deployment in progress.
-
-Screenshots and a live demo link will appear here once the first release is deployed.
 
 ---
 
@@ -137,7 +135,7 @@ VITE_API_BASE_URL=http://localhost:5000/api
 ### Database Setup
 
 1. Go to your Supabase project → SQL Editor
-2. Run the full schema from [`/server/schema.sql`](server/schema.sql)
+2. Run the full schema from [`/schema.sql`](schema.sql)
 3. Row Level Security is automatically configured
 
 ### Run Locally
@@ -150,7 +148,7 @@ npm run dev
 npm run dev
 ```
 
-App will be available at `http://localhost:5173`
+App available at `http://localhost:5173`
 
 ---
 
@@ -173,6 +171,7 @@ kyro/
 │   ├── sockets/             # Socket.io chat + room handlers
 │   └── middleware/          # JWT auth, error handling
 │
+├── schema.sql               # Full Supabase schema + RLS policies
 └── README.md
 ```
 
@@ -197,27 +196,21 @@ Contributions are welcome. Please open an issue first to discuss what you'd like
 # Fork → clone → create a feature branch
 git checkout -b feature/your-feature-name
 
-# Make your changes, then
+# Make changes, then
 git commit -m "feat: describe your change"
 git push origin feature/your-feature-name
 
 # Open a Pull Request
 ```
 
-Please follow the existing code style and write clear commit messages.
-
 ---
 
 ## ◈ License
 
-Distributed under the [MIT License](LICENSE). Free to use, modify, and distribute.
+Distributed under the [MIT License](LICENSE).
 
 ---
 
 <div align="center">
-
-Built with care by students, for students.
-
-**[⬆ Back to top](#)**
-
+  <sub>Built with care by students, for students.</sub>
 </div>
