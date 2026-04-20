@@ -8,7 +8,7 @@ app.use(express.json());
 
 // API Routes will be mounted here
 app.get('/', (req, res) => {
-  res.send('Kiro API is running...');
+  res.send('Kyro API is running...');
 });
 
 module.exports = app;

@@ -1,6 +1,6 @@
-# Kiro
+# Kyro
 
-Kiro is a unified platform that combines basic productivity tools, AI assistance, and collaboration features to support student learning and daily workflow.
+Kyro is a unified platform that combines basic productivity tools, AI assistance, and collaboration features to support student learning and daily workflow.
 
 It brings together tasks, focus tools, resource discovery, chat, and content sharing in one place so users don’t have to switch between multiple apps while studying or working.
 
@@ -8,7 +8,7 @@ It brings together tasks, focus tools, resource discovery, chat, and content sha
 
 ## Overview
 
-Kiro is designed as an integrated workspace for students. It focuses on three main areas:
+Kyro is designed as an integrated workspace for students. It focuses on three main areas:
 
 - Personal productivity  
 - Learning support through AI  
@@ -70,7 +70,7 @@ The goal is to keep everything in one system that is simple to use and easy to e
 
 ## Project Status
 
-Kiro is currently in early development.
+Kyro is currently in early development.
 
 The first version focuses on:
 - Task management  
