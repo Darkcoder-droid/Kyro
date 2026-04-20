@@ -1,4 +1,11 @@
 # Kyro
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai)
+---
 
 Kyro is a unified platform that combines basic productivity tools, AI assistance, and collaboration features to support student learning and daily workflow.
 
@@ -84,7 +91,7 @@ Later versions will add collaboration and publishing features.
 
 ## License
 
-MIT License
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the license terms.
 
 ---
 
