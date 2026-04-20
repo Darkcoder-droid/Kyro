@@ -1,100 +1,223 @@
-# Kyro
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai)
----
+<div align="center">
 
-Kyro is a unified platform that combines basic productivity tools, AI assistance, and collaboration features to support student learning and daily workflow.
+```
+██╗  ██╗██╗   ██╗██████╗  ██████╗
+██║ ██╔╝╚██╗ ██╔╝██╔══██╗██╔═══██╗
+█████╔╝  ╚████╔╝ ██████╔╝██║   ██║
+██╔═██╗   ╚██╔╝  ██╔══██╗██║   ██║
+██║  ██╗   ██║   ██║  ██║╚██████╔╝
+╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝
+```
 
-It brings together tasks, focus tools, resource discovery, chat, and content sharing in one place so users don’t have to switch between multiple apps while studying or working.
+**A next-generation student productivity & collaboration platform**
 
----
+[![License: MIT](https://img.shields.io/badge/License-MIT-7F77DD.svg?style=flat-square)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-339933.svg?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
+[![React](https://img.shields.io/badge/React-18-61DAFB.svg?style=flat-square&logo=react&logoColor=white)](https://reactjs.org)
+[![Supabase](https://img.shields.io/badge/Supabase-Free_Tier-3ECF8E.svg?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
-## Overview
+[Features](#-features) · [Demo](#-demo) · [Getting Started](#-getting-started) · [Tech Stack](#-tech-stack) · [Contributing](#-contributing)
 
-Kyro is designed as an integrated workspace for students. It focuses on three main areas:
-
-- Personal productivity  
-- Learning support through AI  
-- Collaboration with peers  
-
-The goal is to keep everything in one system that is simple to use and easy to expand over time.
+</div>
 
 ---
 
-## Features
+## ✦ Overview
 
-### Task Management
-- Create and manage tasks
-- Organize by priority
-- Track daily progress
+Kyro is an all-in-one platform built for students who want to do more than just survive their coursework. It combines deep-focus tools, AI-powered learning assistance, real-time collaboration, and a publishing system — all in one clean, distraction-free interface.
 
-### Focus Mode
-- Pomodoro timer
-- Minimal distraction interface
-- Optional background sounds
-
-### AI Assistant
-- Ask questions and get explanations
-- Get help with learning topics
-- Suggest relevant resources
-
-### Resource Search
-- Find videos, articles, and documents
-- Filter based on type and difficulty
-- Save useful resources
-
-### Chat System
-- One-to-one messaging
-- Group conversations
-- Basic friend system
-
-### Study Rooms
-- Create or join study sessions
-- Real-time communication support (planned)
-- Shared focus environment
-
-### Publishing
-- Share notes or articles
-- View content from other users
-- Organize posts by topic
+> Built free. Built open. Built for learners.
 
 ---
 
-## Tech Stack
+## ◈ Features
 
-- Frontend: React  
-- Backend: Node.js (Express)  
-- Database: Firebase / PostgreSQL  
-- AI: OpenAI API  
-- Real-time features: WebSockets  
-- Voice (planned): WebRTC  
+<table>
+<tr>
+<td width="50%">
+
+### 🗂 Task Management
+Organize your work with priorities, categories, deadlines, and daily/weekly views. Never miss what matters.
+
+### ⏱ Pomodoro Timer
+Custom work/break intervals with session tracking. Stay focused, measure your progress.
+
+### 🎧 Focus Mode
+Full-screen minimal UI with ambient sound player — rain, café, white noise, forest. Built with Howler.js.
+
+### 🤖 AI Learning Assistant
+Powered by Gemini API (free tier). Ask questions, get learning paths, explain anything — with full conversation history.
+
+</td>
+<td width="50%">
+
+### 🔍 Resource Finder
+AI-curated learning resources filtered by type and difficulty. Save anything worth revisiting.
+
+### 💬 Real-Time Messaging
+1:1 and group chat with typing indicators. Socket.io powered, Supabase persisted.
+
+### 🎙 Study Rooms
+Create or join live study sessions with WebRTC peer-to-peer voice calls and host-synced shared audio.
+
+### 📝 Publishing System
+Write and publish notes, articles, and resources with a full Tiptap rich text editor. Discover what others share.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Project Status
+## ◈ Demo
 
-Kyro is currently in early development.
+> Coming soon — deployment in progress.
 
-The first version focuses on:
-- Task management  
-- Focus tools  
-- AI-based learning assistance  
-- Basic resource search  
-
-Later versions will add collaboration and publishing features.
+Screenshots and a live demo link will appear here once the first release is deployed.
 
 ---
 
-## License
+## ◈ Tech Stack
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the license terms.
+| Layer | Technology |
+|---|---|
+| Frontend | React 18 + Vite + TailwindCSS |
+| Backend | Node.js + Express |
+| Database | Supabase (PostgreSQL + Auth + Storage + Realtime) |
+| AI | Google Gemini API (free tier) |
+| Real-time | Socket.io |
+| Voice | WebRTC via simple-peer |
+| Rich Text | Tiptap |
+| Audio | Howler.js |
 
 ---
 
-## Notes
+## ◈ Getting Started
 
-This project is being built as an experimental all-in-one workspace for learning and productivity. The structure may evolve as features are added.
+### Prerequisites
+
+- Node.js 18+
+- A [Supabase](https://supabase.com) account (free tier)
+- A [Google Gemini API key](https://aistudio.google.com/app/apikey) (free, no credit card)
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/kyro.git
+cd kyro
+
+# 2. Install server dependencies
+cd server && npm install
+
+# 3. Install client dependencies
+cd ../client && npm install
+```
+
+### Environment Setup
+
+Create `server/.env`:
+
+```env
+SUPABASE_URL=your_supabase_project_url
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
+GEMINI_API_KEY=your_gemini_api_key
+PORT=5000
+```
+
+Create `client/.env`:
+
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+VITE_API_BASE_URL=http://localhost:5000/api
+```
+
+### Database Setup
+
+1. Go to your Supabase project → SQL Editor
+2. Run the full schema from [`/server/schema.sql`](server/schema.sql)
+3. Row Level Security is automatically configured
+
+### Run Locally
+
+```bash
+# In /server
+npm run dev
+
+# In /client (separate terminal)
+npm run dev
+```
+
+App will be available at `http://localhost:5173`
+
+---
+
+## ◈ Project Structure
+
+```
+kyro/
+├── client/                  # React frontend (Vite)
+│   └── src/
+│       ├── components/      # UI primitives, layout, feature components
+│       ├── pages/           # Route-level page components
+│       ├── context/         # Auth, Theme, Socket context providers
+│       ├── hooks/           # Custom React hooks
+│       └── lib/             # Supabase + socket client config
+│
+├── server/                  # Express backend
+│   ├── routes/              # API route definitions
+│   ├── controllers/         # Business logic
+│   ├── services/            # AI, resource, recommendation services
+│   ├── sockets/             # Socket.io chat + room handlers
+│   └── middleware/          # JWT auth, error handling
+│
+└── README.md
+```
+
+---
+
+## ◈ Roadmap
+
+- [ ] OAuth login (Google)
+- [ ] Mobile app (React Native)
+- [ ] Offline mode with service workers
+- [ ] Flashcard / spaced repetition module
+- [ ] Calendar integration
+- [ ] Collaborative document editing
+
+---
+
+## ◈ Contributing
+
+Contributions are welcome. Please open an issue first to discuss what you'd like to change.
+
+```bash
+# Fork → clone → create a feature branch
+git checkout -b feature/your-feature-name
+
+# Make your changes, then
+git commit -m "feat: describe your change"
+git push origin feature/your-feature-name
+
+# Open a Pull Request
+```
+
+Please follow the existing code style and write clear commit messages.
+
+---
+
+## ◈ License
+
+Distributed under the [MIT License](LICENSE). Free to use, modify, and distribute.
+
+---
+
+<div align="center">
+
+Built with care by students, for students.
+
+**[⬆ Back to top](#)**
+
+</div>
